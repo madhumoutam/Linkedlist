@@ -27,8 +27,8 @@ int main() {
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 5; j++) {
             if (sparseMatrix[i][j] != 0) {
-                compactMatrix[0][k] = i;    // Row
-                compactMatrix[1][k] = j;    // Column
+                compactMatrix[0][k] = i;
+                compactMatrix[1][k] = j;
                 compactMatrix[2][k] = sparseMatrix[i][j];
                 k++;
             }
