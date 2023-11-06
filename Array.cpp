@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int sparseMatrix[4][5] = {0};
 
-    int inputData[6][3] = {
+    int inputData[6][3] = { //
         {0, 2, 3},
         {0, 4, 4},
         {1, 2, 5},
